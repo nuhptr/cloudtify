@@ -11,7 +11,7 @@ export const metadata: Metadata = {
    icons: { icon: "/icons/ic_logo.svg" },
 }
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function MainLayout({ children }: Readonly<{ children: React.ReactNode }>) {
    return (
       // ConvexClerkProvider Here
       <html lang="en">
